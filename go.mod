@@ -1,4 +1,4 @@
-module github.com/grafana/xk6-sql-driver-sqlite3
+module github.com/ddemin/xk6-sql-driver-sqlite3
 
 go 1.22
 
