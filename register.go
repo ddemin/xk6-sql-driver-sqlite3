@@ -1,5 +1,5 @@
 // Package sqlite3 contains SQLite3 driver registration for xk6-sql.
-package sqlite
+package sqlite3
 
 import (
 	"github.com/grafana/xk6-sql/sql"
