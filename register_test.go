@@ -1,4 +1,4 @@
-package sqlite3
+package sqlite
 
 import (
 	_ "embed"
@@ -11,5 +11,5 @@ import (
 var script string
 
 func TestIntegration(t *testing.T) { //nolint:paralleltest
-	sqltest.RunScript(t, "sqlite3", "integration-test.db", script)
+	sqltest.RunScript(t, "sqlite", "integration-test.db", script)
 }
