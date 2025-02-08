@@ -1,5 +1,5 @@
 // Package sqlite3 contains SQLite3 driver registration for xk6-sql.
-package sqlite3
+package sqlite
 
 import (
 	"github.com/grafana/xk6-sql/sql"
@@ -9,5 +9,5 @@ import (
 )
 
 func init() {
-	sql.RegisterModule("sqlite3")
+	sql.RegisterModule("sqlite")
 }
