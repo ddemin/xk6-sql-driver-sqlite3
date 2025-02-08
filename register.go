@@ -5,7 +5,7 @@ import (
 	"github.com/grafana/xk6-sql/sql"
 
 	// Blank import required for initialization of driver.
-	_ "github.com/ncruces/go-sqlite3"
+	_ "github.com/glebarez/go-sqlite"
 )
 
 func init() {
